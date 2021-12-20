@@ -1,0 +1,22 @@
+/**
+ * @file
+ * Table styling.
+ */
+
+table.mbta-table thead > tr {
+  border-bottom: none;
+}
+
+table.mbta-table thead > tr > th {
+  background: white;
+  color: black;
+}
+tr.mbta-tr {
+  border-bottom-color: white;
+}
+tr.mbta-tr > td {
+  border: none;
+}
+.mbta-col-sec {
+  width: 15%;
+}

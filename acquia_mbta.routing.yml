@@ -1,0 +1,7 @@
+acquia_mbta.routes:
+  path: '/mbta/routes'
+  defaults:
+    _controller: '\Drupal\acquia_mbta\Controller\MbtaRouteController::getRoutes'
+    _title: 'Routes'
+  requirements:
+    _access: 'TRUE'

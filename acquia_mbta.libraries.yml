@@ -1,0 +1,5 @@
+acquia_mbta.table:
+  version: VERSION
+  css:
+    component:
+      css/acquia_mbta.table.css: {}
